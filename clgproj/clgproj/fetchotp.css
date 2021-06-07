@@ -1,0 +1,95 @@
+﻿body {
+    margin: 0;
+    padding: 0;
+    
+    background-size: cover;
+    background-position: center;
+    font-family: sans-serif;
+}
+img {
+    z-index: 0;
+    height: 100%;
+    width: 100%;
+    position: fixed;
+}
+.box {
+    width: 320px;
+    height: 240px;
+    background: #111;
+    color: #fff;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    box-sizing: border-box;
+    padding: 50px 30px;
+    opacity: 0.9;
+    border-radius: 10px;
+}
+
+h1 {
+    margin: 0;
+    padding: 0 0 20px;
+    text-align: center;
+    font-size: 22px;
+}
+
+.box p {
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+}
+
+    .box p span {
+        font-weight: normal;
+    }
+
+.box .custom {
+    margin-left: 30%;
+    text-align: center;
+}
+
+.box input[type="text"], input[type="password"] {
+    border: none;
+    border-bottom: 1px solid #fff;
+    background: transparent;
+    outline: none;
+    height: 40px;
+    color: #fff;
+    font-size: 16px;
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+    .box input[type="text"]:focus, input[type="password"]:focus {
+        border-bottom: 1px solid #f12020;
+        transition: .3s;
+    }
+
+.box input[type="submit"] {
+    border: none;
+    outline: none;
+    height: 40px;
+    background: #f12020;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 15px;
+    width: 100%;
+}
+
+    .box input[type="submit"]:hover {
+        cursor: pointer;
+        background: #ffc107;
+        color: #000;
+    }
+
+.box a {
+    text-decoration: none;
+    font-size: 12px;
+    line-height: 20px;
+    color: darkgrey;
+}
+
+    .box a:hover {
+        color: #ffc107;
+    }

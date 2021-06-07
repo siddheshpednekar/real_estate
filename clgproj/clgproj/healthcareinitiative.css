@@ -1,0 +1,116 @@
+﻿body {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    min-height: 100vh;
+    width: 100%;
+    background-image: url('bg.jpg');
+    background-size: 100% 100%;
+}
+
+    .container h1 {
+        font-family: 'Playfair Display', serif;
+        font-size: 60px;
+        text-align: center;
+        color: #666;
+        font-weight: lighter;
+        margin: 0;
+        position: absolute;
+        top: 60px;
+        left: 30%;
+    }
+
+.line-1 {
+    position: absolute;
+    width: 60%;
+    top: 140px;
+    left: 20%;
+}
+
+.container img {
+    height: 220px;
+    width: 300px;
+    border: .5px solid skyblue;
+    top: 170px;
+    left: 320px;
+    position: absolute;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px black;
+}
+
+.container .header {
+    color: white;
+    font-size: 18px;
+    font-family: 'Playfair Display', serif;
+    position: absolute;
+    top: 160px;
+    left: 45%;
+}
+
+.container .p1 {
+    color: white;
+    font-size: 17px;
+    font-family: 'Lato';
+    position: absolute;
+    top: 220px;
+    left: 45%;
+}
+
+.line-2 {
+    position: absolute;
+    width: 60%;
+    top: 400px;
+    left: 20%;
+}
+
+.container .header1 {
+    color: white;
+    font-size: 18px;
+    font-family: 'Playfair Display', serif;
+    position: absolute;
+    top: 410px;
+    left: 20%;
+}
+
+.container .p2 {
+    color: white;
+    font-size: 17px;
+    font-family: 'Lato';
+    position: absolute;
+    top: 460px;
+    left: 20%;
+}
+
+.line-3 {
+    position: absolute;
+    width: 60%;
+    top: 560px;
+    left: 20%;
+}
+
+.container .header2 {
+    color: white;
+    font-size: 18px;
+    font-family: 'Playfair Display', serif;
+    position: absolute;
+    top: 570px;
+    left: 20%;
+}
+
+.container .p3 {
+    color: white;
+    font-size: 17px;
+    font-family: 'Lato';
+    position: absolute;
+    top: 610px;
+    left: 20%;
+}
+
+.line-4 {
+    position: absolute;
+    width: 60%;
+    top: 680px;
+    left: 20%;
+}

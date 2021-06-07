@@ -1,0 +1,146 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="masterpage.Master.cs" Inherits="clgproj.Site1" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Home</title>
+        <link rel="stylesheet" href="masterpage.css" />
+    
+        <script src="https://kit.fontawesome.com/09848ef6f3.js" crossorigin="anonymous"></script>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div>
+            <asp:LinkButton ID="LinkButton4" runat="server" OnClick ="linkbutton4_click"><img src="new.png" class="logo"></asp:LinkButton>
+            
+            <asp:Button ID="myorders" CssClass="myorders" runat="server" Text="My Orders" href="Myorders.aspx" OnClick="myorders_Click" />
+    <asp:Button ID="lgnbtn" class="lgnbtn" runat="server" OnClick="lgnbtn_Click1" href="login.aspx"/>
+        <input type="checkbox" id="check">
+    <label for="check">
+      <i class="fas fa-bars" id="btn"></i>
+      <i class="fas fa-times" id="cancel"></i>
+    </label>
+    <div class="navbar">
+    </div>
+    <div class="sidebar">
+        <div class="about">
+            <br />
+            
+            <h2>&ensp;ABOUT US</h2><br><br>
+            <a href="CorporateProfile.aspx">&emsp;CORPORATE PROFILE</a><br><br>
+            <a href="Legacy.aspx">&emsp;LEGACY</a><br><br>
+            <a href="CSR.aspx">&emsp;CSR</a><br><br>
+            
+        </div>
+        <div class="projects">
+            <br />
+            <h2>&ensp;PROJECTS</h2><br><br>
+            <asp:LinkButton ID="LinkButton1" runat="server" ForeColor="White" class="link" OnClick ="linkbutton1_click">&emsp;ALL PROJECTS</asp:LinkButton><br><br>
+            <asp:LinkButton ID="LinkButton2" runat="server" ForeColor="White" class="link" OnClick ="linkbutton2_click">&emsp;ONGOING PROJECTS</asp:LinkButton><br><br>
+            <asp:LinkButton ID="LinkButton3" runat="server" ForeColor="White" class="link" OnClick ="linkbutton3_click">&emsp;COMPLETED PROJECTS</asp:LinkButton><br><br>
+        </div>
+        <div class="know">
+            <br />
+
+            <h2>&ensp;KNOWLEDGE HUB</h2><br><br>
+            <a href="Documentation.aspx">&emsp;DOCUMENTATION</a><br><br>
+            <a href="TaxBenefit.aspx">&emsp;TAX BENEFIT</a><br><br>
+            <a href="Loan.aspx">&emsp;LOANS</a><br><br>
+        </div>
+        <div class="sustain">
+            <br />
+
+            <h2>&ensp;SUSTAINABILITY</h2><br><br>
+            <a href="Approach.aspx">&emsp;APPROACH</a><br><br>
+            <a href="Footprint.aspx">&emsp;GREEN FOOTPRINT</a><br><br>
+            
+        </div>
+        <div class="contact">
+            <br />
+
+            <h2>&ensp;CONTACT US</h2><br><br>
+            <a href="#">&emsp;<b>Contact:</b> +091-1111111111<br /><br />
+                &emsp;<b>Address:</b> Mumbai, Maharashtra<br /><br />
+                &emsp;<b>Email:</b> citydwellingsinfo@gmail.com<br /><br /></a><br><br/>
+        </div>
+    </div>    
+
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder2" runat="server">
+
+        </asp:ContentPlaceHolder>
+
+        <footer>
+		<div class="main-content">
+			<div class="left-box">
+				<h2>About us</h2>
+				<div class="content">
+				<p> In this Busy City Life, its very hard to find a<br>genuine and a trustworthy property or a house to live in.<br>We provide a number of Properties for you to buy,<br>with all the information you are looking only a click away.</p>
+				<div class="social">
+					<a href="https://www.facebook.com/"><span class="fab fa-facebook-f"></span></a>
+					<a href="https://twitter.com/?lang=en"><span class="fab fa-twitter"></span></a>
+					<a href="https://www.instagram.com/"><span class="fab fa-instagram"></span></a>
+					
+				</div>
+				</div>
+			</div>
+			<div class="center-box">
+				<h2>Quick Links</h2>
+				<div class="content">
+					<div class="company">
+                        <ul>
+                        <li><asp:LinkButton ID="LinkButton5" CssClass="text" runat="server" OnClick ="linkbutton5_click">Company</asp:LinkButton></li>
+						</ul>
+					</div>
+					<div class="project">
+                        <ul>
+                        <li><asp:LinkButton ID="LinkButton6" CssClass="text" runat="server" OnClick ="linkbutton6_click">All Projects</asp:LinkButton></li>
+						</ul>
+					</div>
+					<div class="orders">
+                        <ul>
+                        <li><asp:LinkButton ID="LinkButton7" CssClass="text" runat="server" OnClick ="linkbutton7_click">My Orders</asp:LinkButton></li>
+						</ul>
+						
+					</div>
+				</div>
+				
+			</div>
+			
+			<div class="right-box">
+				<h2>Address</h2>
+				<div class="content">
+					<div class="place">
+						<span class="fas fa-map-marker-alt"></span>
+						<span class="text">Mumbai, Maharashtra</span>
+					</div>
+					<div class="place">
+						<span class="fas fa-phone-alt"></span>
+						<span class="text">9867850833</span>
+					</div>
+					<div class="place">
+						<span class="fas fa-envelope"></span>
+						<span class="text">citydwellingsinfo@gmail.com</span>
+					</div>
+				</div>
+		</div>
+		
+		<div class="bottom">
+			<center>
+				<span class="credit">Created By <a href="#">CityDwellings</a> | </span>
+				<span class="far fa-copyright"></span><span> 2020 All Rights Reserved.</span>
+			</center>
+		</div>
+	</footer>
+    </div>
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+
+        
+    </form>
+</body>
+</html>

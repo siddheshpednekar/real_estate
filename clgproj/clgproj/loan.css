@@ -1,0 +1,774 @@
+﻿body {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    min-height: 100vh;
+    width: 100%;
+}
+
+    .container .sec-1 {
+        height: 100vh;
+        width: 100%;
+        background: linear-gradient(135deg, #18375f 0%,#2989d8 99%,#207cca 100%,#207cca 100%,#207cca 100%,#7db9e8 100%,#207cca 102%);
+    }
+
+        .container .sec-1 .main-img {
+            top: 20%;
+            left: 5%;
+            height: 350px;
+            width: 500px;
+            position: absolute;
+            border-radius: 10px;
+            box-shadow: 5px 5px 10px black;
+        }
+
+        .container .sec-1 .icon {
+            top: -25%;
+            left: 32%;
+            height: 380px;
+            width: 170px;
+            position: absolute;
+        }
+
+        .container .sec-1 h1 {
+            font-family: 'Playfair Display', serif;
+            font-size: 50px;
+            text-align: center;
+            color: #fff;
+            font-weight: lighter;
+            margin: 0;
+            position: absolute;
+            top: 250px;
+            left: 45%;
+        }
+
+        .container .sec-1 p {
+            font-family: 'Lato';
+            font-size: 20px;
+            font-weight: 300;
+            color: #fff;
+            top: 310px;
+            left: 45%;
+            position: absolute;
+        }
+
+    .container .sec-2 {
+        height: 100vh;
+        width: 100%;
+        background: linear-gradient(45deg, #cb60b3 0%,#db36a4 3%,#db36a4 15%,#c146a1 29%,#a80077 100%);
+    }
+
+        .container .sec-2 .main-img {
+            top: 118%;
+            right: 5%;
+            height: 350px;
+            width: 500px;
+            position: absolute;
+            border-radius: 10px;
+            box-shadow: 5px 5px 10px black;
+        }
+
+        .container .sec-2 .icon {
+            top: 100vh;
+            left: 50%;
+            height: 380px;
+            width: 170px;
+            position: absolute;
+            transform: rotate(55deg);
+        }
+
+        .container .sec-2 h1 {
+            font-family: 'Playfair Display', serif;
+            font-size: 27px;
+            line-height: 27px;
+            color: #fff;
+            font-weight: lighter;
+            margin: 0;
+            position: absolute;
+            top: 110vh;
+            left: 5%;
+        }
+
+        .container .sec-2 p {
+            font-family: 'Lato';
+            font-size: 17px;
+            font-weight: 300;
+            color: #fff;
+            top: 117vh;
+            left: 5%;
+            position: absolute;
+        }
+
+        .container .sec-2 .p1 {
+            font-family: 'Lato';
+            font-size: 17px;
+            font-weight: 300;
+            color: #fff;
+            top: 124vh;
+            left: 5%;
+            position: absolute;
+        }
+
+        .container .sec-2 .p2 {
+            font-family: 'Lato';
+            font-size: 17px;
+            font-weight: 300;
+            color: #fff;
+            top: 131vh;
+            left: 5%;
+            position: absolute;
+        }
+
+        .container .sec-2 .p3 {
+            font-family: 'Lato';
+            font-size: 17px;
+            font-weight: 300;
+            color: #fff;
+            top: 138vh;
+            left: 5%;
+            position: absolute;
+        }
+
+        .container .sec-2 .p4 {
+            font-family: 'Lato';
+            font-size: 17px;
+            font-weight: 300;
+            color: #fff;
+            top: 148vh;
+            left: 5%;
+            position: absolute;
+        }
+
+        .container .sec-2 .p5 {
+            font-family: 'Lato';
+            font-size: 17px;
+            font-weight: 300;
+            color: #fff;
+            top: 155vh;
+            left: 5%;
+            position: absolute;
+        }
+
+        .container .sec-2 .p6 {
+            font-family: 'Lato';
+            font-size: 17px;
+            font-weight: 300;
+            color: #fff;
+            top: 162vh;
+            left: 5%;
+            position: absolute;
+        }
+
+        .container .sec-2 .p7 {
+            font-family: 'Lato';
+            font-size: 17px;
+            font-weight: 300;
+            color: #fff;
+            top: 175vh;
+            left: 5%;
+            position: absolute;
+        }
+
+    .container .sec-3 {
+        height: 100vh;
+        width: 100%;
+        background: linear-gradient(135deg, #18375f 0%,#2989d8 99%,#207cca 100%,#207cca 100%,#207cca 100%,#7db9e8 100%,#207cca 102%);
+    }
+
+        .container .sec-3 .main-img {
+            top: 215vh;
+            left: 5%;
+            height: 350px;
+            width: 500px;
+            position: absolute;
+            border-radius: 10px;
+            box-shadow: 5px 5px 10px black;
+        }
+
+        .container .sec-3 .icon {
+            top: 200vh;
+            left: 38%;
+            height: 380px;
+            width: 170px;
+            position: absolute;
+        }
+
+        .container .sec-3 h1 {
+            font-family: 'Playfair Display', serif;
+            font-size: 27px;
+            line-height: 27px;
+            color: #fff;
+            font-weight: lighter;
+            margin: 0;
+            position: absolute;
+            top: 225vh;
+            left: 50%;
+        }
+
+        .container .sec-3 p {
+            font-family: 'Lato';
+            font-size: 17px;
+            font-weight: 300;
+            color: #fff;
+            top: 232vh;
+            left: 50%;
+            position: absolute;
+        }
+
+        .container .sec-3 .p1 {
+            font-family: 'Lato';
+            font-size: 17px;
+            font-weight: 300;
+            color: #fff;
+            top: 237vh;
+            left: 50%;
+            position: absolute;
+        }
+
+        .container .sec-3 .p2 {
+            font-family: 'Lato';
+            font-size: 17px;
+            font-weight: 300;
+            color: #fff;
+            top: 244vh;
+            left: 50%;
+            position: absolute;
+        }
+
+        .container .sec-3 .p3 {
+            font-family: 'Lato';
+            font-size: 17px;
+            font-weight: 300;
+            color: #fff;
+            top: 248vh;
+            left: 50%;
+            position: absolute;
+        }
+
+        .container .sec-3 .p4 {
+            font-family: 'Lato';
+            font-size: 17px;
+            font-weight: 300;
+            color: #fff;
+            top: 258vh;
+            left: 50%;
+            position: absolute;
+        }
+
+    .container .sec-4 {
+        height: 100vh;
+        width: 100%;
+        background: linear-gradient(45deg, #cb60b3 0%,#db36a4 3%,#db36a4 15%,#c146a1 29%,#a80077 100%);
+    }
+
+        .container .sec-4 .main-img {
+            top: 318%;
+            right: 5%;
+            height: 350px;
+            width: 500px;
+            position: absolute;
+            border-radius: 10px;
+            box-shadow: 5px 5px 10px black;
+        }
+
+        .container .sec-4 .icon {
+            top: 300vh;
+            left: 50%;
+            height: 380px;
+            width: 170px;
+            position: absolute;
+            transform: rotate(55deg);
+        }
+
+        .container .sec-4 h1 {
+            font-family: 'Playfair Display', serif;
+            font-size: 27px;
+            line-height: 27px;
+            color: #fff;
+            font-weight: lighter;
+            margin: 0;
+            position: absolute;
+            top: 320vh;
+            left: 5%;
+        }
+
+        .container .sec-4 p {
+            font-family: 'Lato';
+            font-size: 17px;
+            font-weight: 300;
+            color: #fff;
+            top: 325vh;
+            left: 5%;
+            position: absolute;
+        }
+
+        .container .sec-4 .p1 {
+            font-family: 'Lato';
+            font-size: 17px;
+            font-weight: 300;
+            color: #fff;
+            top: 329vh;
+            left: 5%;
+            position: absolute;
+        }
+
+        .container .sec-4 .p2 {
+            font-family: 'Lato';
+            font-size: 17px;
+            font-weight: 300;
+            color: #fff;
+            top: 335vh;
+            left: 5%;
+            position: absolute;
+        }
+
+        .container .sec-4 .p3 {
+            font-family: 'Lato';
+            font-size: 17px;
+            font-weight: 300;
+            color: #fff;
+            top: 344vh;
+            left: 5%;
+            position: absolute;
+        }
+
+        .container .sec-4 .p4 {
+            font-family: 'Lato';
+            font-size: 17px;
+            font-weight: 300;
+            color: #fff;
+            top: 350vh;
+            left: 5%;
+            position: absolute;
+        }
+
+        .container .sec-4 .p5 {
+            font-family: 'Lato';
+            font-size: 17px;
+            font-weight: 300;
+            color: #fff;
+            top: 356vh;
+            left: 5%;
+            position: absolute;
+        }
+
+        .container .sec-4 .p6 {
+            font-family: 'Lato';
+            font-size: 17px;
+            font-weight: 300;
+            color: #fff;
+            top: 359vh;
+            left: 5%;
+            position: absolute;
+        }
+
+        .container .sec-4 .p7 {
+            font-family: 'Lato';
+            font-size: 17px;
+            font-weight: 300;
+            color: #fff;
+            top: 362vh;
+            left: 5%;
+            position: absolute;
+        }
+
+        .container .sec-4 .p8 {
+            font-family: 'Lato';
+            font-size: 17px;
+            font-weight: 300;
+            color: #fff;
+            top: 368vh;
+            left: 5%;
+            position: absolute;
+        }
+
+    .container .sec-5 {
+        height: 100vh;
+        width: 100%;
+        background: linear-gradient(135deg, #18375f 0%,#2989d8 99%,#207cca 100%,#207cca 100%,#207cca 100%,#7db9e8 100%,#207cca 102%);
+    }
+
+        .container .sec-5 .main-img {
+            top: 420%;
+            left: 5%;
+            height: 350px;
+            width: 500px;
+            position: absolute;
+            border-radius: 10px;
+            box-shadow: 5px 5px 10px black;
+        }
+
+        .container .sec-5 .icon {
+            top: 400vh;
+            left: 38%;
+            height: 380px;
+            width: 170px;
+            position: absolute;
+        }
+
+        .container .sec-5 h1 {
+            font-family: 'Playfair Display', serif;
+            font-size: 27px;
+            line-height: 27px;
+            color: #fff;
+            font-weight: lighter;
+            margin: 0;
+            position: absolute;
+            top: 410vh;
+            left: 50%;
+        }
+
+        .container .sec-5 p {
+            font-family: 'Lato';
+            font-size: 17px;
+            font-weight: 300;
+            color: #fff;
+            top: 415vh;
+            left: 50%;
+            position: absolute;
+        }
+
+        .container .sec-5 .p1 {
+            font-family: 'Lato';
+            font-size: 17px;
+            font-weight: 300;
+            color: #fff;
+            top: 421vh;
+            left: 50%;
+            position: absolute;
+        }
+
+        .container .sec-5 .p2 {
+            font-family: 'Lato';
+            font-size: 17px;
+            font-weight: 300;
+            color: #fff;
+            top: 424vh;
+            left: 50%;
+            position: absolute;
+        }
+
+        .container .sec-5 .p3 {
+            font-family: 'Lato';
+            font-size: 17px;
+            font-weight: 300;
+            color: #fff;
+            top: 430vh;
+            left: 50%;
+            position: absolute;
+        }
+
+        .container .sec-5 .p4 {
+            font-family: 'Lato';
+            font-size: 17px;
+            font-weight: 300;
+            color: #fff;
+            top: 436vh;
+            left: 50%;
+            position: absolute;
+        }
+
+        .container .sec-5 .p5 {
+            font-family: 'Lato';
+            font-size: 17px;
+            font-weight: 300;
+            color: #fff;
+            top: 442vh;
+            left: 50%;
+            position: absolute;
+        }
+
+        .container .sec-5 .p6 {
+            font-family: 'Lato';
+            font-size: 17px;
+            font-weight: 300;
+            color: #fff;
+            top: 446vh;
+            left: 50%;
+            position: absolute;
+        }
+
+        .container .sec-5 .p7 {
+            font-family: 'Lato';
+            font-size: 17px;
+            font-weight: 300;
+            color: #fff;
+            top: 452vh;
+            left: 50%;
+            position: absolute;
+        }
+
+        .container .sec-5 .p8 {
+            font-family: 'Lato';
+            font-size: 17px;
+            font-weight: 300;
+            color: #fff;
+            top: 456vh;
+            left: 50%;
+            position: absolute;
+        }
+
+        .container .sec-5 .p9 {
+            font-family: 'Lato';
+            font-size: 17px;
+            font-weight: 300;
+            color: #fff;
+            top: 462vh;
+            left: 50%;
+            position: absolute;
+        }
+
+        .container .sec-5 .p10 {
+            font-family: 'Lato';
+            font-size: 17px;
+            font-weight: 300;
+            color: #fff;
+            top: 474vh;
+            left: 50%;
+            position: absolute;
+        }
+
+    .container .sec-6 {
+        height: 100vh;
+        width: 100%;
+        background: linear-gradient(45deg, #cb60b3 0%,#db36a4 3%,#db36a4 15%,#c146a1 29%,#a80077 100%);
+    }
+
+        .container .sec-6 .main-img {
+            top: 518%;
+            right: 5%;
+            height: 350px;
+            width: 500px;
+            position: absolute;
+            border-radius: 10px;
+            box-shadow: 5px 5px 10px black;
+        }
+
+        .container .sec-6 .icon {
+            top: 500vh;
+            left: 50%;
+            height: 380px;
+            width: 170px;
+            position: absolute;
+            transform: rotate(55deg);
+        }
+
+        .container .sec-6 h1 {
+            font-family: 'Playfair Display', serif;
+            font-size: 27px;
+            line-height: 27px;
+            color: #fff;
+            font-weight: lighter;
+            margin: 0;
+            position: absolute;
+            top: 520vh;
+            left: 5%;
+        }
+
+        .container .sec-6 p {
+            font-family: 'Lato';
+            font-size: 17px;
+            font-weight: 300;
+            color: #fff;
+            top: 525vh;
+            left: 5%;
+            position: absolute;
+        }
+
+        .container .sec-6 .p1 {
+            font-family: 'Lato';
+            font-size: 17px;
+            font-weight: 300;
+            color: #fff;
+            top: 532vh;
+            left: 5%;
+            position: absolute;
+        }
+
+        .container .sec-6 .p2 {
+            font-family: 'Lato';
+            font-size: 17px;
+            font-weight: 300;
+            color: #fff;
+            top: 539vh;
+            left: 5%;
+            position: absolute;
+        }
+
+        .container .sec-6 .p3 {
+            font-family: 'Lato';
+            font-size: 17px;
+            font-weight: 300;
+            color: #fff;
+            top: 543vh;
+            left: 5%;
+            position: absolute;
+        }
+
+        .container .sec-6 .p4 {
+            font-family: 'Lato';
+            font-size: 17px;
+            font-weight: 300;
+            color: #fff;
+            top: 550vh;
+            left: 5%;
+            position: absolute;
+        }
+
+        .container .sec-6 .p5 {
+            font-family: 'Lato';
+            font-size: 17px;
+            font-weight: 300;
+            color: #fff;
+            top: 554vh;
+            left: 5%;
+            position: absolute;
+        }
+
+        .container .sec-6 .p6 {
+            font-family: 'Lato';
+            font-size: 17px;
+            font-weight: 300;
+            color: #fff;
+            top: 558vh;
+            left: 5%;
+            position: absolute;
+        }
+
+        .container .sec-6 .p7 {
+            font-family: 'Lato';
+            font-size: 17px;
+            font-weight: 300;
+            color: #fff;
+            top: 562vh;
+            left: 5%;
+            position: absolute;
+        }
+
+        .container .sec-6 .p8 {
+            font-family: 'Lato';
+            font-size: 17px;
+            font-weight: 300;
+            color: #fff;
+            top: 569vh;
+            left: 5%;
+            position: absolute;
+        }
+
+    .container .sec-7 {
+        height: 100vh;
+        width: 100%;
+        background: linear-gradient(135deg, #18375f 0%,#2989d8 99%,#207cca 100%,#207cca 100%,#207cca 100%,#7db9e8 100%,#207cca 102%);
+    }
+
+        .container .sec-7 .main-img {
+            top: 620%;
+            left: 5%;
+            height: 350px;
+            width: 500px;
+            position: absolute;
+            border-radius: 10px;
+            box-shadow: 5px 5px 10px black;
+        }
+
+        .container .sec-7 .icon {
+            top: 600vh;
+            left: 38%;
+            height: 380px;
+            width: 170px;
+            position: absolute;
+        }
+
+        .container .sec-7 h1 {
+            font-family: 'Playfair Display', serif;
+            font-size: 27px;
+            line-height: 27px;
+            color: #fff;
+            font-weight: lighter;
+            margin: 0;
+            position: absolute;
+            top: 610vh;
+            left: 50%;
+        }
+
+        .container .sec-7 p {
+            font-family: 'Lato';
+            font-size: 17px;
+            font-weight: 300;
+            color: #fff;
+            top: 615vh;
+            left: 50%;
+            position: absolute;
+        }
+
+        .container .sec-7 .p1 {
+            font-family: 'Lato';
+            font-size: 17px;
+            font-weight: 300;
+            color: #fff;
+            top: 621vh;
+            left: 50%;
+            position: absolute;
+        }
+
+        .container .sec-7 .p2 {
+            font-family: 'Lato';
+            font-size: 17px;
+            font-weight: 300;
+            color: #fff;
+            top: 634vh;
+            left: 50%;
+            position: absolute;
+        }
+
+        .container .sec-7 .p3 {
+            font-family: 'Lato';
+            font-size: 17px;
+            font-weight: 300;
+            color: #fff;
+            top: 638vh;
+            left: 50%;
+            position: absolute;
+        }
+
+        .container .sec-7 .p4 {
+            font-family: 'Lato';
+            font-size: 17px;
+            font-weight: 300;
+            color: #fff;
+            top: 654vh;
+            left: 50%;
+            position: absolute;
+        }
+
+        .container .sec-7 .p5 {
+            font-family: 'Lato';
+            font-size: 17px;
+            font-weight: 300;
+            color: #fff;
+            top: 658vh;
+            left: 50%;
+            position: absolute;
+        }
+
+        .container .sec-7 .p6 {
+            font-family: 'Lato';
+            font-size: 17px;
+            font-weight: 300;
+            color: #fff;
+            top: 668vh;
+            left: 50%;
+            position: absolute;
+        }
+
+        .container .sec-7 .p7 {
+            font-family: 'Lato';
+            font-size: 17px;
+            font-weight: 300;
+            color: #fff;
+            top: 672vh;
+            left: 50%;
+            position: absolute;
+        }

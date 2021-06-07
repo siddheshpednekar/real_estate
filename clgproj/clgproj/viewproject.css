@@ -1,0 +1,49 @@
+﻿* {
+    margin: 0;
+    border: 0;
+}
+
+img {
+    z-index: 0;
+    height: 100%;
+    width: 100%;
+    position: fixed;
+}
+
+.grid {
+    border-collapse: collapse;
+    width: 80%;
+    border: 1px solid #f0f0f0;
+    position: absolute;
+    top: 30%;
+    left: 10%;
+    text-decoration: none;
+    color: #000;
+    text-align: center;
+}
+
+.pgr {
+    font-weight: 700;
+}
+
+.pgr {
+    padding: .5rem 1rem;
+    font-size: .9rem;
+    color: #222;
+}
+
+    .pgr :last-child {
+        display: flex;
+        align-items: center;
+    }
+
+input[type="button"] {
+    outline: none;
+    border: none;
+    background: transparent;
+}
+
+.hyper {
+    text-decoration: none;
+    color: #000;
+}

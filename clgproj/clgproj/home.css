@@ -1,0 +1,604 @@
+﻿body {
+    margin: 0;
+    padding: 0;
+}
+
+.imageContainer {
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+}
+
+    .imageContainer img {
+        width: 125%;
+        height: 100%;
+    }
+
+@keyframes demo {
+
+    0% {
+        transform: scale3d(1, 1, 1) translate3d(0px, 0px, 0px);
+        animation-timing-function: ease-in;
+        opacity: 1;
+    }
+
+    50% {
+        transform: scale3d(1, 1, 1) translate3d(-190px, 0px, 0px);
+        animation-timing-function: ease-in;
+        opacity: 1;
+    }
+}
+
+.imageContainer img {
+    animation: demo 20s infinite;
+}
+
+.name {
+    background-color: #000;
+    opacity: 0.5;
+    width: 32%;
+    height: 14%;
+    padding: all 2px;
+    position: absolute;
+    top: 45%;
+    left: 35%;
+    border-radius: 4px;
+}
+
+h2 {
+    color: white;
+    font-weight: 600;
+    font-size: 25px;
+    align-items: center;
+}
+
+.top {
+    background-color: #000;
+    opacity: 0.6;
+    transition: .8s;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 60px;
+    width: 100vw;
+    align-items: center;
+    display: flex;
+    z-index: 10;
+}
+
+
+
+
+/Detail/
+
+.detail {
+    height: 100vh;
+    width: 100%;
+    margin: 0;
+}
+
+.detail img {
+    width: 100%;
+    height: 100vh;
+    filter: brightness(60%);
+}
+
+.detail .dname {
+    font-family: 'Playfair Display', serif;
+    color: #00AEEF;
+    font-size: 55px;
+    font-weight: 400;
+    left: 100px;
+    position: absolute;
+    top: 105vh;
+}
+
+p {
+    font-family: 'Playfair Display', serif;
+    font-size: 45px;
+    font-weight: 500;
+    top: 80px;
+    left: 100px;
+    position: absolute;
+    top: 115vh;
+    color: #fff;
+}
+
+.desc {
+    font-family: 'Lato', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    left: 105px;
+    position: absolute;
+    top: 130vh;
+    color: #ccc;
+}
+
+.detail hr {
+    width: 60%;
+    top: 143vh;
+    position: absolute;
+    margin-left: 105px;
+    margin-top: 15px;
+}
+
+.detail .hr1 {
+    width: 60%;
+    top: 163vh;
+    position: absolute;
+    margin-left: 105px;
+    margin-top: 15px;
+}
+
+/odometer/
+
+.num {
+    font-size: 46px;
+    font-family: 'Playfair-Display';
+    text-align: center;
+    color: #ccc;
+    margin-top: 25%;
+    margin-left: 10px;
+}
+
+.num1 {
+    font-size: 46px;
+    font-family: 'Playfair-Display';
+    text-align: center;
+    color: #ccc;
+    margin-top: 25%;
+    margin-left: 10px;
+}
+
+.num2 {
+    font-size: 46px;
+    font-family: 'Playfair-Display';
+    text-align: center;
+    color: #ccc;
+    margin-top: 25%;
+    margin-left: 10px;
+}
+
+.num3 {
+    font-size: 46px;
+    font-family: 'Playfair-Display';
+    text-align: center;
+    color: #ccc;
+    margin-top: 25%;
+    margin-left: 10px;
+}
+
+.num4 {
+    font-size: 46px;
+    font-family: 'Playfair-Display';
+    text-align: center;
+    color: #ccc;
+    margin-top: 25%;
+    margin-left: 10px;
+}
+
+.num5 {
+    font-size: 46px;
+    font-family: 'Playfair-Display';
+    text-align: center;
+    color: #ccc;
+    margin-top: 25%;
+    margin-left: 10px;
+}
+
+/odometer end/
+
+.numbers {
+    height: 20%;
+    width: 12%;
+    position: absolute;
+    top: 145vh;
+    left: 70px;
+    font-weight: 1000;
+}
+
+.numbers1 {
+    height: 20%;
+    width: 12%;
+    position: absolute;
+    top: 145vh;
+    left: 240px;
+    font-weight: 1000;
+}
+
+.numbers2 {
+    height: 20%;
+    width: 12%;
+    position: absolute;
+    top: 145vh;
+    left: 430px;
+    font-weight: 1000;
+}
+
+.numbers3 {
+    height: 20%;
+    width: 12%;
+    position: absolute;
+    top: 145vh;
+    left: 650px;
+    font-weight: 1000;
+}
+
+.numbers4 {
+    height: 20%;
+    width: 12%;
+    position: absolute;
+    top: 165vh;
+    left: 430px;
+    font-weight: 1000;
+}
+
+.numbers5 {
+    height: 20%;
+    width: 12%;
+    position: absolute;
+    top: 165vh;
+    left: 650px;
+    font-weight: 1000;
+}
+
+.textA {
+    color: #eee;
+    font-family: 'Lato';
+    font-size: 17px;
+    font-weight: 600;
+    top: 0%;
+    left: 8px;
+    width: 100%;
+    text-align: center;
+}
+
+.textB {
+    color: #eee;
+    font-family: 'Lato';
+    font-size: 17px;
+    font-weight: 600;
+    position: absolute;
+    top: 80px;
+    left: 8px;
+    width: 100%;
+    text-align: center;
+}
+
+/Arrow Animation/
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.arrow {
+    position: absolute;
+    top: 192vh;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+    .arrow span {
+        display: block;
+        width: 10px;
+        height: 10px;
+        border-bottom: 5px solid #06A8FF;
+        border-right: 5px solid #06A8FF;
+        transform: rotate(45deg);
+        margin: -10px;
+        animation: animate 2s infinite;
+    }
+
+        .arrow span:nth-child(2) {
+            animation-delay: -0.2s;
+        }
+
+        .arrow span:nth-child(3) {
+            animation-delay: -0.4s;
+        }
+
+@keyframes animate {
+    0% {
+        opacity: 0;
+        transform: rotate(45deg) translate(-20px,-20px);
+    }
+
+    50% {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 0;
+        transform: rotate(45deg) translate(20px,20px);
+    }
+}
+
+/Arrow animation end/
+
+/Link Arrow/
+
+.link-arrow {
+    position: absolute;
+    top: 176vh;
+    left: 10%;
+    transform: translate(-50%,-50%);
+}
+
+.link-arrow span {
+    display: block;
+    width: 20px;
+    height: 20px;
+    border-bottom: 5px solid #06A8FF;
+    border-right: 5px solid #06A8FF;
+    transform: rotate(45deg);
+    margin: -10px;
+    animation: animatelink 2s infinite;
+}
+
+@keyframes animatelink {
+    0% {
+        opacity: 0;
+        transform: rotate(315deg) translate(-20px,-20px);
+    }
+
+    50% {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 0;
+        transform: rotate(315deg) translate(20px,20px);
+    }
+}
+
+.link p {
+    text-align: center;
+    font-family: 'Play', sans-serif;
+    color: #bbb;
+    text-decoration: none;
+    top: 170vh;
+    left: 14%;
+    font-size: 18px;
+}
+
+
+/Link Arrow end/
+
+.projects {
+    height: 300vh;
+    width: 100%;
+    background-image: url('bg.jpg');
+    background-size: 100% 100%;
+}
+
+.content {
+    height: 300vh;
+    width: 100%;
+}
+
+    .content .header {
+        font-family: 'Playfair Display', serif;
+        font-size: 110px;
+        text-align: center;
+        color: #666;
+        font-weight: 500;
+        margin: 0;
+    }
+
+    .content .proj-img {
+        height: 20%;
+        width: 50%;
+        margin-top: 100px;
+        margin-left: 100px;
+    }
+
+        .content .proj-img img {
+            height: 100%;
+            width: 100%;
+        }
+
+    .content .proj-name {
+        height: 100px;
+        width: 280px;
+        background-color: #000;
+        opacity: 0.5;
+        position: absolute;
+        left: 50%;
+        top: 240vh;
+    }
+
+        .content .proj-name .pname {
+            color: #fff;
+            font-family: 'Play', sans-serif;
+            font-size: 50px;
+            margin-top: 35px;
+            margin-left: 10px;
+        }
+
+        .content .proj-name .cname {
+            font-family: 'Courgette', cursive;
+            font-size: 30px;
+            margin-top: 25px;
+            margin-left: 35px;
+            top: -3vh;
+            color: #fff;
+        }
+
+.proj-desc p {
+    color: #fff;
+    font-family: 'Lato',serif;
+    font-size: 20px;
+    top: 258vh;
+    left: 65%;
+}
+
+/Project Link/
+
+.link-arrow-proj {
+    position: absolute;
+    top: 285vh;
+    left: 67%;
+    transform: translate(-50%,-50%);
+}
+
+.link-arrow-proj span {
+    display: block;
+    width: 20px;
+    height: 20px;
+    border-bottom: 5px solid #06A8FF;
+    border-right: 5px solid #06A8FF;
+    transform: rotate(45deg);
+    margin: -10px;
+    animation: animatelink 2s infinite;
+}
+
+@keyframes animatelink {
+    0% {
+        opacity: 0;
+        transform: rotate(315deg) translate(-20px,-20px);
+    }
+
+    50% {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 0;
+        transform: rotate(315deg) translate(20px,20px);
+    }
+}
+
+.link-proj p {
+    text-align: center;
+    font-family: 'Play', sans-serif;
+    color: #bbb;
+    text-decoration: none;
+    top: 281vh;
+    left: 71%;
+    font-size: 18px;
+}
+
+/Project Link End/
+
+/Project2 link/
+
+.content .proj-img1 {
+    height: 20%;
+    width: 50%;
+    margin-top: 150px;
+    margin-left: 41%;
+}
+
+.content .proj-img1 img {
+    height: 100%;
+    width: 100%;
+}
+
+.content .proj-name1 {
+    height: 100px;
+    width: 280px;
+    background-color: #000;
+    opacity: 0.5;
+    position: absolute;
+    right: 52%;
+    top: 330vh;
+}
+
+    .content .proj-name1 .pname1 {
+        color: #fff;
+        font-family: 'Play', sans-serif;
+        font-size: 50px;
+        margin-top: 35px;
+        margin-left: 80px;
+    }
+
+    .content .proj-name1 .cname1 {
+        font-family: 'Courgette', cursive;
+        font-size: 30px;
+        margin-top: 25px;
+        margin-left: -15px;
+        top: -3vh;
+        color: #fff;
+    }
+
+.proj-desc1 p {
+    color: #fff;
+    font-family: 'Lato',serif;
+    font-size: 20px;
+    top: 345vh;
+    left: 100px;
+}
+
+/Project Link/
+
+.link-arrow-proj1 {
+    position: absolute;
+    top: 380vh;
+    left: 10%;
+    transform: translate(-50%,-50%);
+}
+
+.link-arrow-proj1 span {
+    display: block;
+    width: 20px;
+    height: 20px;
+    border-bottom: 5px solid #06A8FF;
+    border-right: 5px solid #06A8FF;
+    transform: rotate(45deg);
+    margin: -10px;
+    animation: animatelink 2s infinite;
+}
+
+@keyframes animatelink {
+    0% {
+        opacity: 0;
+        transform: rotate(315deg) translate(-20px,-20px);
+    }
+
+    50% {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 0;
+        transform: rotate(315deg) translate(20px,20px);
+    }
+}
+
+.link-proj {
+    text-align: center;
+    font-family: 'Play', sans-serif;
+    color: #bbb;
+    text-decoration: none;
+    top: 376vh;
+    left: 14%;
+    font-size: 18px;
+}
+
+.proj-desc1 .link-proj1 p {
+    text-align: center;
+    font-family: 'Play', sans-serif;
+    color: #bbb;
+    text-decoration: none;
+    top: 376vh;
+    left: 14%;
+    font-size: 18px;
+}
+
+/Project 2 Link End/
+/All projects/
+.proj-all {
+    margin-top: 150px;
+    height: 450px;
+    width: 800px;
+    margin-left: 355px;
+    cursor: pointer;
+}
+
+.proj-all img {
+    width: 100%;
+    height: 100%;
+}
+
+/All Projects End/
